@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+}
+section{
+    width:100%;
+    height:100vh;
+    background:url("image/3.jpg")no-repeat;
+    background-position: center;
+    background-size: cover;
+    position:relative;
+ 
+
+    
+    
+
+}
+section:before{
+    content: "";
+    background: url("image/1.jpg");
+    background-size:cover;
+    background-position: center;
+    width:100%;
+    height:100%;
+    position: absolute;
+    mix-blend-mode: screen;
+
+   
+
+}
